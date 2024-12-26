@@ -1,0 +1,115 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.toolbar {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.modeler-container {
+  flex: 1;
+  border-right: 1px solid #ccc;
+}
+
+.properties-container {
+  width: 300px;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.properties-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.property-group {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.property-section {
+  margin-top: 15px;
+}
+
+.property-row {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.property-row label {
+  flex: 0 0 30%;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.property-row input,
+.property-row select,
+.property-row textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.task-type-select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.properties-placeholder {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.bjs-powered-by{
+  display: none;
+}
+
+.entry .bpmn-icon-data-object{
+  display: none;
+}
+
+.separator{
+  display: none;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-row label {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-row input[type="checkbox"] {
+  margin-right: 8px;
+}
